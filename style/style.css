@@ -1,0 +1,373 @@
+@font-face {
+    font-family:"Circular";
+    src: url("../font/circular-std-medium-500.ttf");
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;;
+}
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto; 
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+#hero {  
+    background-color:#fff;
+    color: #56597A;
+    padding: 55px auto;
+}
+header {
+    padding:57px 0;
+}
+.row.header {
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-right: 309px;
+}
+.navbar-list {
+    list-style: none; 
+}
+.list-item {    
+    padding: 0 45px;
+} 
+.navbar-link {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.serv {
+    align-items: center;
+}
+.creative {
+    width: 599px;
+    align-items: center;
+
+}
+.agency {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #F78CB6;
+    margin-bottom: 29px;
+    
+}
+.delivering {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #56597A;
+    margin-bottom: 31px;
+}
+button {
+    width: 194px;
+    height: 58px;
+    background: #F78BB6;
+    color:#FFFFFF;
+    border-radius: 4px;
+    margin-top: 42px;
+    border-color: #F78BB6;    
+}
+.button-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.abilities {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title {
+    padding: 0 321px;    
+    height: 70px;
+    margin-top: 80px;
+    text-align: center;
+}
+.serv-title{
+    color: #f78bb6;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    height: 40px;
+}
+.reason {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+    color: #56597A;
+    margin-bottom: 58px;
+}
+.services {
+    width: 1200px;
+    padding: 0 10px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h3{
+    color:#56597A;    
+    height: 72px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 72px;
+}
+.wbranding, .service-textb {
+    color: #fff;
+    text-align: center;
+}
+
+.service {
+    width: 270px;
+    height: 307px;
+    left: 135px;
+    top: 1045px;
+    background: #FFF1F9;
+    border-radius: 8px;
+    margin-top: 58px;
+    align-items: center;
+}
+.service-branding {
+    width: 270px;
+    height: 344px;
+    background: #F78CB6;
+    border-radius: 8px;
+    margin-top: 58px;
+    color: #fff;
+}
+.service-item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.icons {
+    margin:35px 60px;
+}
+.service-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #919299;
+}
+.branding-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.design{
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.design .row {
+    flex-flow: row;
+    margin-top: 150px;
+    justify-content: space-around;    
+}
+.title-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    color: #F78CB6;
+    margin: 35px auto;
+}
+.text-about {
+    width: 482px;
+    height: 95px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 62px;
+    color: #56597A;
+    
+}
+.design-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #919299;
+    margin-top: 15px;
+    width: 440px;
+}
+.team {
+    width: 1200px;
+    padding: 0 auto;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.teamwork .row {
+    flex-flow: row;
+}
+.testominal {
+    width: 1200px;
+    padding: 0 auto;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.testominal-content .row {
+    flex-flow: row;
+}
+.jorge {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #56597A;
+    margin-top: 23px;
+}
+.country {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ABABAB;
+}
+.ideas {
+    margin-left: 138px;
+}
+.brands{
+    width: 1200px;
+    padding: 0 auto;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.brands-item .logo-brands {
+    list-style: none;    
+    align-items: center;
+    margin: 0 60px;
+}
+.about-blog {
+    width: 1200px;
+    padding: 0 auto;
+    margin: 0px auto;
+    display: flex;
+}
+.blog{
+    width: 500px;
+    height: 297px;
+    margin-left: 80px;
+}
+.sending {
+    margin-top: 0px;
+    box-shadow: 7px 7px  hwb(0 95% 5%);
+    border-radius: 5px;
+    
+}
+
+.email-border {
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    color: #D2D2D2;
+    margin-right: 75px;
+
+}
+.bottom{
+    width: 1200px;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.messenger-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+
+.contact-logo{        
+    width: 45px;
+    height: 45px;
+    background: #FFFFFF;
+    border: solid whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #56597A;
+}
+.text-resouces{
+    list-style: none;
+}
+.resouces-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+
+.byMirage {
+    width: 1200px;
+    height: 54px;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F78CB6;
+}
+.thebottom {
+    justify-content: center;
+    align-items: center;
+}
+.rights {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.options {
+    text-decoration: none;
+    border: none;
+    padding-left: 10px;
+    background-color: #F78CB6;
+    color: #FFFFFF;
+    width: 65px;
+}
